@@ -1,5 +1,5 @@
 Variable = "Hola Mundo" #String
-numero = 42             #number
+numero = 423             #number
 decimal = 10.2
 verdadero = True
 falso = False

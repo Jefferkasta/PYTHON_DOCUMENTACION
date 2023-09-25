@@ -2,7 +2,7 @@
 def desplegarNombres(nombres):
     for nombre in nombres:
         print(nombre)
-nombres = ['Jeffer',"Karla",'Pedro','Ximena']
+nombres = ['Jeffer',"Karla",'Petro','Ximena']
 desplegarNombres(nombres)
 desplegarNombres('Jeffer')
 #un solo numero lo reconoce como INT y no es un valor iterable, si le ponemos doble parentecis (()) la funcion lo toma como una tupla
