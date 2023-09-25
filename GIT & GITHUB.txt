@@ -1,0 +1,84 @@
+Git con GitHub para que puedas trabajar en diferentes computadoras:
+
+1.Instalación de Git: Asegúrate de tener Git instalado en ambas computadoras. Puedes descargarlo e instalarlo desde git-scm.com.
+
+2.Configura tu nombre y correo electrónico: En cada computadora, configura tu nombre de usuario y dirección de correo electrónico en Git usando los siguientes comandos en la terminal:
+
+git config user.name "tu nombre"
+git config user.email "tu correo"
+
+de manera global en el pc:
+
+git config --global user.name "Tu Nombre"
+git config --global user.email "tu@email.com"
+
+
+3.Crea un repositorio en GitHub: Ve a GitHub, inicia sesión en tu cuenta (o crea una si no tienes una), y crea un nuevo repositorio. Puedes hacerlo haciendo clic en el botón "New" en tu página de inicio de GitHub.
+
+4.Clona el repositorio: En tu PC en casa, usa el comando git clone para copiar el repositorio de GitHub a tu máquina local:
+	git clone https://github.com/tuusuario/turepositorio.git
+
+Reemplaza tuusuario con tu nombre de usuario de GitHub y turepositorio con el nombre de tu repositorio.
+
+5.Trabaja en tus proyectos: Ahora puedes editar los archivos en tu PC de casa y hacer commits localmente usando git commit.
+
+6.Sube los cambios a GitHub: Cuando quieras guardar tus cambios en GitHub, usa git push:
+	git push origin master
+Esto subirá tus cambios al repositorio en línea en GitHub.
+
+7.En la Universidad: Cuando estés en la computadora de la universidad y quieras trabajar en tu proyecto, puedes clonar el repositorio desde GitHub de la misma manera que lo hiciste en casa:
+	git clone https://github.com/tuusuario/turepositorio.git
+
+8.Sincroniza tus cambios: Trabaja en tus archivos en la computadora de la universidad y luego puedes hacer commits y push para subir los cambios a GitHub de nuevo.
+
+9.Pull los cambios: Si hiciste cambios desde otra ubicación (como en casa) y quieres traer esos cambios a la computadora de la universidad, utiliza git pull:
+	git pull origin master
+
+Esto mantendrá tus proyectos sincronizados entre diferentes computadoras y la copia en línea en GitHub. Asegúrate de hacer commits y push con regularidad para mantener todo actualizado.
+
+
+
+///////////////////////////////////PERSONAL 
+1.Inicio sesion en Github
+2.Creo repositorio en Github
+3.Dentro de la carpeta donnde esta el proyecto inicio Git con clic derecho 
+4.luego en git para ver en que directorio o carpeta esta: pwd  con ls se vera que archivos hay dentro de esa carpeta
+5.para movernos dentro de las carpetas: cd , cd .. se devuelve, mkdir crea carpeta
+6. INICIALIZAMOS EL PROYECTO con (git init)
+7.(git status) para ver el estado del proyecto
+8.si hay archivos por agregar al siguiente paso, los agrego con (git add .), estos se agregaran y quedaran listos para comprometerlos(comitiarlos)
+9.(git commit -m "Descripcion") hacemos commit para cargarlos al repositorio del pc
+10.En github seguir los pasos del repositorio, que son copiar la linea de codigo con el link correspondiente,luego (git push) para seleccionar la rama main o crearla 
+11.(git branch) para ver en que rama se encuentra
+12.seguido de esto el github pedira como un acceso el cual se le dara y luego se veran ya cargadas las carpetas y archivos del proyecto local 
+13.(git push) me actualiza los datos al Github despues de commitiarlos en el git con repositorio local
+
+//////////////////////////////////CODIGOS
+
+-Clonar un repositorio remoto: Para copiar un repositorio de GitHub a tu máquina local.
+	git clone https://github.com/tuusuario/turepositorio.git
+-Agregar archivos al área de preparación: Antes de hacer un commit, debes agregar los archivos que deseas incluir en ese commit.
+	git add nombre-del-archivo
+-O para agregar todos los archivos cambiados:
+	git add .
+-Hacer un commit: Guardar tus cambios localmente con un mensaje descriptivo.
+	git commit -m "Tu mensaje descriptivo aquí"
+-Subir cambios a GitHub: Enviar tus commits al repositorio en GitHub.
+	git push origin master
+Cambia master por el nombre de tu rama si estás trabajando en una rama diferente.
+-Actualizar tu repositorio local: Obtener los últimos cambios del repositorio remoto en tu máquina local.
+	git pull origin master
+-Crear una nueva rama: Para trabajar en una nueva característica o arreglo de errores.
+	git branch nombre-de-la-rama
+-Cambiar de rama: Para moverte entre diferentes ramas.
+	git checkout nombre-de-la-rama
+-Combinar ramas: Para fusionar una rama con otra (por ejemplo, para incorporar cambios de una rama de desarrollo a la rama principal).
+	git checkout rama-destino
+	git merge rama-origen
+-Eliminar una rama: Para eliminar una rama una vez que hayas terminado de trabajar en ella.
+	git branch -d nombre-de-la-rama
+-Ver el historial de commits: Para ver una lista de todos los commits en tu repositorio.
+	git log
+
+
+
