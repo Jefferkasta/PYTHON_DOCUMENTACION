@@ -7,3 +7,5 @@ def dato_recursivo(numero):
     elif numero<=0:
         print("numero incorrecto")
 dato_recursivo(7)
+
+#Funcion recursiva porque llama a ella misma como nuevo recurso y usa su dato como parte de codigo
