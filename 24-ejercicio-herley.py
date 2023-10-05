@@ -8,15 +8,17 @@
 13+8=21
 21+13=34
 '''
-n1=0 
-n2=1
-while n1 < 10:
-    n3 = n1+n2
-    print(f'{n1}+{n2}={n3}')
-    n1 = n3
-    n4=n3+n2
-    print(f'{n3}+{n2}={n4}')
-    
+def fibonari(n):
+    a = 0
+    b = 1
+    for i in range(n):
+        c = a+b
+        a = b
+        b = c
+    return b
+for x in range(5):
+    print(fibonari(x))
 
 
-    
+        
+        
